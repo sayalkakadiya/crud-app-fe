@@ -1,0 +1,106 @@
+div {
+  max-width: 700px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+form input {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1 1 200px;
+  min-width: 150px;
+}
+
+form .submit-button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+form .clear-button{
+    padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #115fb3c5;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+
+}
+.duplicate-button{
+      padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #1f8bff;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+
+}
+
+form .submit-button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table-action-btn {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.table-action-btn:hover {
+  opacity: 0.85;
+}
+
+.edit-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
