@@ -6,7 +6,7 @@ import Pagination from "./Pagination";
 import './UserCrud.css';
 import UserView from "./UserView";
 
-const API_URL = "http://localhost:8080/data";
+const API_URL = "https://crud-app-be-n4kr.onrender.com";
 
 const UserCRUD = () => {
     const [users, setUsers] = useState([]);
